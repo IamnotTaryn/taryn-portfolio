@@ -1,6 +1,6 @@
 # Portfolio maintenance
 
-This repository is Taryn's public portfolio. `site/index.html` is the canonical editable website, not a disposable build artifact. Keep it usable by opening directly in a browser. Preserve the agreed Chinese content, desktop-first responsive layout, three groups, direct project links, and Skill-only introduction/case modal.
+This repository is Taryn's public portfolio. `site/index.html` is the canonical editable website, not a disposable build artifact. Keep it usable by opening directly in a browser. Preserve the agreed Chinese content, desktop-first responsive layout, three groups, direct project links, and Skill introduction/case modal and copy-only contact card.
 
 The user has requested that every future portfolio iteration be recorded in GitHub and that the website remain publicly accessible. For each completed iteration:
 1. Make only requested changes; do not replace real screenshots with invented images.

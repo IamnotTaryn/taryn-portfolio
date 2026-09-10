@@ -12,7 +12,8 @@ text=Path('site/index.html').read_text()
 p=Page();p.feed(text)
 assert '<title>Taryn / Portfolio</title>' in text
 assert {'personal','internship','skill','skill-modal'} <= p.ids
-assert 'mailto:15201859355@163.com' in p.links
+assert {'contact-modal','contact-email','copy-email'} <= p.ids
+assert '15201859355@163.com' in text
 for link in p.links:
     if link.startswith('#') and len(link)>1: assert link[1:] in p.ids, link
 for image in p.images:
